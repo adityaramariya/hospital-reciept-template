@@ -1,1 +1,41 @@
 @import "app";
+
+.content {
+  background-color: #fafafa;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  .flex-items {
+    &:nth-child(1) {
+      margin-right: auto;
+    }
+  }
+}
+
+/*.container{
+  @media(min-width: 992px)
+  {
+    width: 970px;
+  }
+}*/
+.subtitle {
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.patient-details {
+  /*  margin-top: 30px;*/
+}
+
+.custom-table {
+  margin-bottom: 10px !important;
+  th, td {
+    padding: 10px !important;
+  }
+}
